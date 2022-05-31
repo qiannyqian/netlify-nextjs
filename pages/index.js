@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>qian.world</title>
-        <link rel="icon" href="/hibisucs-favicon.ico" />
+        <link rel="icon" href="/hibiscus-favicon.ico" />
       </Head>
 
       <main>
