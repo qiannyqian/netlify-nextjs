@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div className="container">
@@ -13,8 +15,15 @@ export default function Home() {
       <main>
         <Header title="Welcome to qian.world" />
         <p className="description">
-          {/* Get started by editing <code>pages/index.js</code> */}
           This is a WIP - check back soon!
+          <br />
+          <Link href="/about">About</Link>
+          <br />
+          <a href="https://blog.qian.world/" target="_blank">
+            Blog
+          </a>
+          <br />
+          <Link href="/contact">Contact</Link>
         </p>
       </main>
 
