@@ -7,7 +7,7 @@ export default function Footer() {
       <footer className={styles.footer}>
         Made with{' '}
         <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} />{' '}
-        by Qian | <Link href="/">Home</Link>
+        by Qian
       </footer>
     </>
   );
