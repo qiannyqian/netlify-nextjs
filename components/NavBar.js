@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
+import styles from './Navbar.module.css';
 
 import NavItem from './NavItem';
 
@@ -11,7 +12,7 @@ const MENU_LIST = [
 
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
-  const [activeIdx, setActiveIdx] = useState(-1);
+  const [activeIdx, setActiveIdx] = useState(0);
 
   console.log(navActive, activeIdx);
 
@@ -19,7 +20,13 @@ const Navbar = () => {
     <header>
       <nav className={`nav`}>
         <Link href={'/'}>
-          <a>
+          <a className={styles.header}>
+            <img
+              src="/hibiscus.png"
+              alt="Netlify Logo"
+              className={styles.logo}
+            />
+
             <h1 className="logo">qian.world</h1>
           </a>
         </Link>

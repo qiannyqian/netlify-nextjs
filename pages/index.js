@@ -1,9 +1,6 @@
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
-import Navbar from '@components/NavBar';
-
-import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -12,8 +9,6 @@ export default function Home() {
         <title>qian.world</title>
         <link rel="icon" href="/hibiscus-favicon.ico" />
       </Head>
-
-      <Navbar />
 
       <main>
         <Header title="Welcome to qian.world" />
