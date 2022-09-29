@@ -14,8 +14,6 @@ const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
   const [activeIdx, setActiveIdx] = useState(0);
 
-  console.log(navActive, activeIdx);
-
   return (
     <header>
       <nav className={`nav`}>
