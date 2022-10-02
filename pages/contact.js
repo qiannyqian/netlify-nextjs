@@ -13,7 +13,31 @@ export default function Contact() {
       <main>
         <Header title="Contact" />
 
-        <p className="description">This is the contact page</p>
+        <div>
+          <p>
+            You can always find me on{' '}
+            <a href="https://twitter.com/qiannyqian" className="linkout">
+              Twitter
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://www.linkedin.com/in/huiqianliang/"
+              className="linkout"
+            >
+              LinkedIn
+            </a>
+          </p>
+
+          <br />
+
+          <p>
+            However, should you need to contact me directly, you can always{' '}
+            <a href="mailto:liang.huiqian@gmail.com" className="linkout">
+              drop me an email
+            </a>
+            !
+          </p>
+        </div>
       </main>
 
       <Footer />

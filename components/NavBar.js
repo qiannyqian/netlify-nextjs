@@ -7,6 +7,7 @@ import NavItem from './NavItem';
 const MENU_LIST = [
   { text: 'Home', href: '/' },
   { text: 'About', href: '/about' },
+  { text: 'Blog', href: 'https://blog.qian.world/', target: '_blank' },
   { text: 'Contact', href: '/contact' },
 ];
 
