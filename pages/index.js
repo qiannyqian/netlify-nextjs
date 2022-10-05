@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 
@@ -12,7 +13,15 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to qian.world" />
-        <p className="description">This is a WIP - check back soon!</p>
+        <img
+          src="/bnw_pfp_qiannyqian.jpeg"
+          alt="Picture of author, qiannyqian"
+          className="profile_picture"
+        />
+        <div className="text-block">
+          Hey, it's Qian here! You might know me as <b>qiannyqian</b> on social
+          media :) Welcome to my little space on the web!
+        </div>
       </main>
 
       <Footer />

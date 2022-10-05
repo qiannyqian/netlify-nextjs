@@ -7,13 +7,12 @@ export default function Contact() {
     <div className="container">
       <Head>
         <title>qian.world - Contact</title>
-        <link rel="icon" href="/hibiscus-favicon.ico" />
       </Head>
 
       <main>
         <Header title="Contact" />
 
-        <div>
+        <div className="text-block">
           <p>
             You can always find me on{' '}
             <a href="https://twitter.com/qiannyqian" className="linkout">
@@ -26,6 +25,11 @@ export default function Contact() {
             >
               LinkedIn
             </a>
+            . More social links can be found{' '}
+            <a href="https://bio.link/qiannyqian" className="linkout">
+              here
+            </a>
+            .
           </p>
 
           <br />

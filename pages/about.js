@@ -7,16 +7,15 @@ export default function About() {
     <div className="container">
       <Head>
         <title>qian.world - About</title>
-        <link rel="icon" href="/hibiscus-favicon.ico" />
       </Head>
 
       <main>
         <Header title="About" />
 
-        <div>
+        <div className="text-block">
           <p>
-            Hi, my name is Hui Qian, and I am a software engineer who
-            specialises in front-end.
+            Hi, it's Qian here! I'm a software engineer who specialises in
+            front-end.
           </p>
 
           <br />
@@ -24,11 +23,16 @@ export default function About() {
           <p>
             I have been in the tech industry since 2018, after completing a
             coding bootcamp (NEXT Academy in Kuala Lumpur in Full Stack Web
-            Development). I was previously a Psychology graduate from the
-            University of Sheffield who was working in digital marketing and
-            community management, but after having enjoyed the way how words
-            could make beautiful user interfaces, I decided to switch tracks and
-            careers.
+            Development).
+          </p>
+
+          <br />
+
+          <p>
+            I was previously a Psychology graduate from the University of
+            Sheffield who was working in digital marketing and community
+            management, but after having enjoyed the way how words could make
+            beautiful user interfaces, I decided to switch tracks and careers.
           </p>
 
           <br />

@@ -22,6 +22,7 @@ main {
   flex: 1;
   flex-direction: column;
   margin: 3em;
+  text-align: center;
 }
 
 code {
@@ -32,7 +33,7 @@ code {
 }
 
 .container {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
 }
@@ -122,6 +123,18 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.profile_picture {
+  margin: 0 auto;
+  height: 20em;
+  width: 20em;
+  border-radius: 15em;
+}
+
+.text-block {
+  padding: 2em 20%;
+
 }
 
 @media screen and (min-width: 768px) {
