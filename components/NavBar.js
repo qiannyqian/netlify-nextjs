@@ -8,6 +8,7 @@ const MENU_LIST = [
   { text: 'Home', href: '/' },
   { text: 'About', href: '/about' },
   { text: 'Blog', href: 'https://blog.qian.world/', target: '_blank' },
+  { text: 'Code', href: '/code' },
   { text: 'Contact', href: '/contact' },
 ];
 
